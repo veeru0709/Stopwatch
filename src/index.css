@@ -1,0 +1,68 @@
+body {
+    background-image: url(assets/Nature.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 50px;
+    padding: 30px;
+}
+
+.display {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 2.5rem; /* Increased font size */
+    color: white; /* Adjusted font color to contrast with green background */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.746);
+    margin-bottom: 25px;
+}
+
+.controls button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.start-button {
+    background-color: hsl(125, 100%, 40%);
+}
+
+.start-button:hover {
+    background-color: hsl(125, 100%, 30%);
+}
+
+.stop-button {
+    background-color: hsl(10, 90%, 50%);
+}
+
+.stop-button:hover {
+    background-color: hsl(10, 90%, 40%);
+}
+
+.reset-button {
+    background-color: hsl(225, 90%, 60%);
+}
+
+.reset-button:hover {
+    background-color: hsl(215, 90%, 50%);
+}
