@@ -1,6 +1,6 @@
 {
-  "homepage": "git@github.com:veeru0709/StopwatchProject.git",
-  "name": "StopwatchProject",
+  "homepage": "git@github.com:veeru0709/Stopwatch.git",
+  "name": "Stopwatch",
   "private": true,
   "version": "0.0.0",
   "type": "module",
